@@ -1,0 +1,79 @@
+.project_page {
+	h4 {
+		color: $color;
+		padding: 0.5em;
+		border: 1px solid $color;
+		width: 20%;
+		margin: 0 auto 0.5em auto;
+	}
+
+	.people, .nature, .food {
+		width: 100%;
+		position: relative;
+		margin-bottom: 1em;
+	}
+
+	.img {
+		width: 100%;
+		display: inline-block;
+		
+		display: none;
+	}
+
+	.active {
+		display: inline-block;
+	}
+
+	.prev {
+			
+		&:before {
+			float: left;
+			background: url(//cdn.shopify.com/s/files/1/1058/2866/t/2/assets/icon-arrow.svg?16850693521336353837);
+			background-color: $color;
+			background-size: 50%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			margin-top: -25px;
+			display: block;
+			content: "";
+			z-index: 10;
+			left: -20px;
+			cursor: pointer;
+			
+		}
+
+		
+	}
+
+		.next {
+			right: 0;
+			
+
+
+			&:before {
+			background: url(//cdn.shopify.com/s/files/1/1058/2866/t/2/assets/icon-arrow.svg?16850693521336353837);
+			transform: rotate(180deg);
+			
+			background-color: $color;
+			background-size: 50%;
+			background-repeat: no-repeat;
+			background-position: center;
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			margin-top: -25px;
+			display: block;
+			content: "";
+			z-index: 10;
+			right: -20px;
+			cursor: pointer;
+			}
+		}
+}
