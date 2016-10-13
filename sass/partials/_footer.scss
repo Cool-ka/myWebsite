@@ -1,0 +1,61 @@
+footer {
+	background: url(../img/palms.jpg) 50% 0 no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+	clear: both;
+	overflow: hidden;
+	
+	.social_media {
+	text-align: center;
+	padding-top: 200px;
+	margin: 0 auto;
+
+}
+
+.social_media a {
+	margin: 20px;
+	color: white;
+}
+
+.social_media .fa {
+	float: none;
+	color: white;
+	transition-duration: 0.3s;
+		transition-timing-function: ease-in-out;
+	&:hover {
+		color: $color;
+		transition-property: color;
+		transition-duration: 0.3s;
+		transition-timing-function: ease-in-out;
+	};
+}
+
+.line {
+	background-color: white;
+	margin-top: 100px;
+	height: 1px;
+	
+}
+
+.author {
+	text-align: center;
+	color: white;
+	margin-top: 25px;
+	text-shadow: 1px 1px black;
+
+}
+	
+	
+}
+@media all and (max-width: 800px) {
+	footer {
+		height: 420px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	footer {
+		height: 500px;
+	}
+}

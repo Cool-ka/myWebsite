@@ -1,0 +1,378 @@
+
+
+.projects {
+
+	hr {
+		width: 50%;
+		 border: 0;
+    	height: 0;
+    	border-top: 1px solid rgba(0, 0, 0, 0.1);
+    	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	}
+	
+	.container {
+		width: 100%;
+		margin-top: 3em;
+		
+		padding-top: 3em;
+		padding-bottom: 3em;
+		clear: both;
+		
+
+
+
+		.project {
+			position: relative;
+			display: flex;
+			flex: 0 0 100%;
+			max-width: 100%;
+			overflow: hidden;
+			padding: 0.5em;
+			width: 60%;
+			margin: 0 auto;
+
+			button {
+				border: 0;
+				padding: 0;
+				font: initial;
+			}
+
+			p.description {
+				background-color: rgba(white, 0.9);
+			}
+
+			.left_img {
+				position: relative;
+				
+				
+				width: 38%;
+				display: inline-block;
+
+				img {
+					max-width: 100%;
+					width: 100%;
+				}
+				
+			}
+
+			.right_img {
+				position: relative;
+				float: right;
+				width: 38%;
+				display: inline-block;
+
+				.hvr-sweep-to-right {
+					
+						padding-bottom: 0.4em;
+					
+				}
+				
+				img {
+					max-width: 100%;
+					width: 100%;
+					float: right;
+				}
+			}
+
+			.left_text {
+				width: 62%;
+				position: relative;
+				text-align: center;
+				margin: 0 auto;
+
+				
+				z-index: 1;
+
+				h2 {
+					
+					margin-top: 0;
+					transition: all 1s ease-out;
+
+					
+				}
+
+				p.description {
+					
+					position: relative;
+					width: 40%;
+					margin: 0 auto;
+					
+					
+					clear: both;
+				}
+
+				.bottom_text {
+					right: 0;
+					left: 0;
+					bottom: 0;
+					margin-right: auto;
+					margin-left: auto;
+
+					h4 {
+						margin: 0;
+					}
+					
+				}
+				
+				
+				
+			}
+
+			.right_text {
+				width: 62%;
+				position: relative;
+				float: right;
+				text-align: center;
+
+				p {
+					position: relative;
+					width: 40%;
+					margin: 0 auto;
+				}
+
+				h2 {
+					margin-top: 0;
+				}
+				
+				
+			}
+
+			.h2_border {
+				padding: 0.5em 1em;
+				border: 1px solid $color;
+				color: $color;
+				transition: all 0.1s ease-in-out;
+				transform: translateX(0px);
+				position: relative;
+				&:hover {
+					
+					color: white;
+
+					
+				};
+				
+			}
+
+			.bottom_text {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				color: lighten($color, 15%);
+
+				h4 {
+						margin: 0;
+					}
+				
+			}
+
+			.description {
+				clear: both;
+			}
+		}
+
+	}
+}
+
+
+@media all and (max-width: 1400px) {
+
+	.projects {
+
+		.container {
+			
+
+			.project {
+				display: block;
+				text-align: center;
+
+				.left_img {
+					width: 60%;
+					margin: 0 auto 2em 0;
+				}
+
+				.right_img {
+					width: 60%;
+					margin: 0 auto 2em auto;
+					float: none;
+				}
+
+				.right_text {
+					float: none;
+					width: 80%;
+					margin: 0 auto;
+
+					p.description {
+					width: 80%;
+					margin: 0 auto;
+					}
+				}
+
+				.left_text {
+					width: 80%;
+
+					p.description {
+					width: 80%;
+					margin: 0 auto;
+					}
+				}
+
+				.bottom_text {
+					position: static;
+				}
+			}
+
+			.right_layout {
+				display: -webkit-box;
+				  display: -moz-box;
+				  display: -ms-flexbox;
+				  display: -webkit-flex;
+				  display: flex;
+				  -webkit-flex-flow: column-reverse;
+  					flex-flow: column-reverse;
+			}
+
+		}
+	}
+
+}
+
+
+@media all and (max-width: 700px) {
+
+	.projects {
+
+		.container {
+			
+
+			.project {
+				width: 80%;
+
+				.left_img {
+					width: 80%;
+					
+				}
+
+				.right_img {
+					width: 80%;
+					
+				}
+
+				.right_text {
+					
+					width: 100%;
+
+
+					
+				}
+
+				.left_text {
+					width: 100%;
+
+					
+				}
+			}
+		}
+	}
+
+
+}
+
+
+@media all and (max-width: 500px) {
+
+	.projects {
+
+	
+	
+		.container {
+		
+		
+
+
+
+			.project {
+			
+
+			
+
+			
+
+				.left_img {
+				
+
+				
+				
+				}
+
+				.right_img {
+				
+				
+				
+				}
+
+				.left_text {
+				
+
+					h2 {
+					
+					font-size: 1em;
+
+					
+					}
+
+					p.description {
+						font-size: 0.8em;
+					
+					}
+
+					.bottom_text {
+					
+
+						h4 {
+						font-size: 0.9em;
+						}
+					
+					}
+				
+				
+				
+				}
+
+				.right_text {
+				
+
+					p {
+						font-size: 0.8em;
+					}
+
+					h2 {
+					font-size: 1em;
+					}
+				
+				
+				}
+
+			
+				
+			}
+
+			.bottom_text {
+				
+
+				h4 {
+						font-size: 0.9em;
+					}
+				
+			}
+
+			.description {
+				
+			}
+		}
+
+	}
+	
+}
