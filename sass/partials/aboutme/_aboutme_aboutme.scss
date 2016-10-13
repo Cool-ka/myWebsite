@@ -1,0 +1,62 @@
+.who_i_am {
+	margin: 4.5em auto;
+	width: 100%;
+	.container {
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+
+		h2 {
+			padding: 0.5em 0.5em;
+				border: 1px solid $color;
+				color: $color;
+				width: 60%;
+				margin: 0 auto;
+		}
+
+		.section {
+			padding-top: 3em;
+		padding-bottom: 3em;
+			margin: 3em 0;
+		}
+
+		p {
+			width: 60%;
+			margin: 0 auto;
+			padding-top: 3em;
+		}
+	}
+}
+
+
+@media all and (max-width: 700px) {
+
+	.who_i_am {
+		.container {
+			width: 80%;
+
+			p {
+			width: 100%;
+		}
+		}
+
+		
+
+	}
+}
+
+@media all and (max-width: 500px) {
+	.who_i_am {
+		.container {
+			h2 {
+				font-size: 1em;
+			}
+			p {
+				font-size: 0.8em;
+				width: 100%;
+			}
+
+		}
+	}
+
+}

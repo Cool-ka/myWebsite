@@ -1,0 +1,90 @@
+.introduction {
+	padding: 2em 0;
+
+	
+	.container {
+		.project {
+			position: relative;
+			display: flex;
+			flex: 0 0 100%;
+			max-width: 100%;
+			overflow: hidden;
+
+			.left_img {
+				position: relative;
+				
+				
+				width: 38%;
+				display: inline-block;
+
+				img {
+					max-width: 100%;
+					float: right;
+				}
+				
+			}
+
+			.right_img {
+				position: relative;
+				float: right;
+				width: 38%;
+				display: inline-block;
+				
+				img {
+					max-width: 100%;
+					float: left;
+				}
+			}
+
+			.left_text {
+				width: 58%;
+				position: relative;
+				left: 5%;
+				z-index: 1;
+
+				h3 {
+					float: right;
+				}
+
+				p.description {
+					text-align: right;
+					
+					clear: both;
+				}
+
+				.bottom_text {
+					right: 0;
+					text-align: right;
+				}
+				
+				
+				
+			}
+
+			.right_text {
+				width: 58%;
+				position: relative;
+				float: right;
+				right: 5%;
+				
+				
+			}
+
+			.h2_border {
+				padding: 0.5em 1em;
+				border: 1px solid $color;
+			}
+
+			.bottom_text {
+				position: absolute;
+				bottom: 0;
+			}
+
+			.description {
+				clear: both;
+			}
+		
+
+		}
+	}
+}

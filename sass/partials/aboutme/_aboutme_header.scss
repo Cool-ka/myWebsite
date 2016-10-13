@@ -1,0 +1,48 @@
+.about_me {
+	height: 50vh;
+}
+
+@media all and (max-width: 1650px) {
+	.about_me {
+		position: relative;
+		.header_info {
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+
+			.header_text {
+				width: 100%;
+			}
+		}
+
+	}
+
+}
+
+
+@media all and (max-width: 500px) {
+	.about_me {
+		
+		.header_info {
+			padding-top: 200px;
+
+			
+		}
+
+	}
+
+}
+
+@media all and (max-width: 350px) {
+	.about_me {
+		
+		.header_info {
+			width: 90%;
+
+			
+		}
+
+	}
+
+}
