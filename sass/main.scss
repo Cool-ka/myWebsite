@@ -1,0 +1,60 @@
+@import 'partials/variables';
+@import 'partials/normalize';
+@import 'partials/nav';
+@import 'partials/header';
+@import 'partials/projects';
+@import 'partials/footer';
+
+@import 'partials/aboutme/aboutme_header';
+@import 'partials/aboutme/aboutme_aboutme';
+@import 'partials/aboutme/aboutme_introduction';
+@import 'partials/aboutme/aboutme_testimonials';
+
+@import 'partials/contact/contact';
+
+@import 'partials/hover/hover';
+
+@import 'partials/projects/projectscss';
+@import 'partials/projects/yournewdietaryhabits';
+@import 'partials/projects/contestwebsites';
+@import 'partials/projects/gamerswillknow';
+@import 'partials/projects/photography';
+@import 'partials/projects/webbanners';
+
+
+
+
+
+html {
+	
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	max-width: 2000px;
+	font-family: 'Palanquin', sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+hr {
+		width: 50%;
+		 border: 0;
+    	height: 0;
+    	border-top: 1px solid rgba(0, 0, 0, 0.1);
+    	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    	clear: both;
+	}
+
+.current_page {
+	background-color: $color;
+	a {
+	color: white;
+	}
+	}
