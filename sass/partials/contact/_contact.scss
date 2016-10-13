@@ -1,0 +1,59 @@
+.contact {
+	width: 100%;
+	min-height: 50vh;
+	position: relative;
+	.container {
+
+		width: 60%;
+		text-align: center;
+		margin: 0 auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.phone, .mail, .location {
+			
+
+			width: 33%;
+			display: inline-block;
+		}
+
+		h2 {
+			padding: 0.5em 1.5em;
+				border: 1px solid $color;
+				color: $color;
+				width: 60%;
+				margin: 0 auto;
+		}
+
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.contact {
+		.container {
+
+			.phone, .mail, .location {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 500px) { 
+	.contact {
+		margin-top: 2em;
+		.container {
+
+			h2 {
+				font-size: 1em;
+			}
+
+			p {
+				font-size: 0.8em;
+			}
+		}
+	}
+
+}
